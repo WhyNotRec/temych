@@ -1,0 +1,122 @@
+body{
+    background: no-repeat;
+       background-color: black;
+       margin: 0;
+       padding: 0;
+       background-image: url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: auto;
+}
+
+.hero__div{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: azure;
+}
+
+.div__mally{
+    width: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: azure;
+}
+
+.hero__album{
+    display: block;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero__button-first{
+    width: 300px;
+    height: 50px;
+    background-image: url(../images/ОБЛОГА3000на3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:300%;
+    color: aquamarine;
+    font-family: 'Rubik Gemstones', cursive;
+    
+}
+
+.hero__button-second{
+    width: 300px;
+    height: 50px;
+    background-image: url(../images/TEMYCH_MALLY_Pill.jpg);
+    color:cornflowerblue;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.button-links{
+    margin-top: 0;
+}
+
+button{
+    margin-top: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover{
+    background-color: #0d586b;
+    cursor: pointer;
+    transition: background-color 255ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
+}
+
+.it-button{
+    
+    background-image: url(../images/logo_itunes_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;
+}
+
+.apple-button{
+
+    background-image: url(../images/logo_applemusic_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;
+}
+
+.spotify-button{
+
+    background-image: url(../images/logo_spotify_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;  
+}
+
+.yt-button{
+    background-image: url(../images/subscribe-youtube-logo-svg-vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 290px;
+    height: 50px;  
+  }
+
+
+  .sc-button{
+    background-image: url(../images/23-232482_soundcloud-png-logo-graphic-design-transparent-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 290px;
+    height: 50px;  
+  }
