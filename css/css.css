@@ -5,19 +5,17 @@ body{
        padding: 0;
        background-image: url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
        background-repeat: no-repeat;
-       background-position: center;
+       background-position: auto;
        background-size: auto;
 }
 
 .hero__div{
     width: 1200px;
-    max-width: 2500px;
-    height: 1000px;
-    max-height: 2500px;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin:  auto;
     color: azure;
 }
 
@@ -58,6 +56,18 @@ body{
     background-image: url(../images/TEMYCH_MALLY_Pill.jpg);
     color:cornflowerblue;
     font-family: 'Rubik Gemstones', cursive;
+}
+
+.hero__button-thirty{
+    width: 300px;
+    height: 50px;
+    background-image: url(../images/NumbersOUT.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:300%;
+    color: #faea07;
+    font-family: 'Rubik Gemstones', cursive;
+    
 }
 
 .button-links{
