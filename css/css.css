@@ -64,10 +64,8 @@ body{
     background-image: url(../images/NumbersOUT.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:300%;
     color: #faea07;
-    font-family: 'Rubik Gemstones', cursive;
-    
+    font-family: 'Rubik Gemstones', cursive; 
 }
 
 .button-links{
