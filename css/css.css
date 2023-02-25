@@ -4,7 +4,8 @@ body{
        background-color: black;
        margin: 0;
        padding: 0;
-       background-image: url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
+       background-image: 
+       url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
        background-repeat: no-repeat;
        background-position: auto;
        background-size: auto;
@@ -26,7 +27,7 @@ a{
 
 }
 
-header{
+.header{
     display: flex;
    height: 50px;
    width: 200px;
@@ -42,7 +43,7 @@ header{
 .hero__div{
     width: 1200px;
     max-width: 1200px;
-    height: auto;
+    height: 100%;
     margin:auto;
     display: flex;
     align-items: center;
