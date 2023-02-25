@@ -14,16 +14,35 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+
 .list{
     display: flex;
     margin: 10px 300px;
+
 }
 
+header{
+    display: flex;
+   height: 50px;
+   width: 200px;
+   margin-bottom: 10px;
+}
+
+.link{
+    color: aliceblue;
+    font-family: 'Rubik Gemstones', cursive;
+  
+}
 
 .hero__div{
     width: 1200px;
     max-width: 1200px;
-    margin-left: 20%;
+    margin:auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,8 +55,7 @@ ul{
     display: block;
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
-    color: azure;
+    margin:auto;
 }
 
 .hero__album{
@@ -49,6 +67,9 @@ ul{
    
 }
 
+.button-links{
+    margin-top: 0;
+}
 
 .hero__button-first{
     width: 300px;
@@ -58,22 +79,17 @@ ul{
     font-family: 'Rubik Gemstones', cursive;
     margin-top: 5px;
     border-radius: 5px;
-    transition: background-color 250ms;
+    transition: color 250ms, background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-.button-links{
-    margin-top: 0;
-}
-
 
 
 .hero__button-first:hover{
-    background-color: #0d586b;
-    cursor: pointer;
-    transition: background-color 255ms;
+    color:red;
+    background-color: darkred;
+    transition: color 250ms ,background-color 255ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
     content: "";
 }
 
@@ -122,3 +138,22 @@ ul{
     width: 290px;
     height: 50px;  
   }
+
+button{
+    background-color: #096b8600;
+    border-radius: 5% ;
+    border-color: #096b8600;
+    margin-bottom: 10px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+button:hover{
+    background-color: #0ae9c47e;
+    border-radius: 5px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    content: "";
+}
