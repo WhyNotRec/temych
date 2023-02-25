@@ -20,6 +20,11 @@ a{
 }
 
 
+  
+  .boxcard-link:hover {
+    fill: #ffffff;
+    background-color: #2196f3;
+  }
 
 .list{
     display: flex;
